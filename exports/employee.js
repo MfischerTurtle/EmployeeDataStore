@@ -58,9 +58,9 @@ function empAllView(startUp) {
       });
     };
 
-    function updateEmpRole(startUp) {
-        let employees = empAllView(startUp);
-        let empChoices = employees.map(index => {
+    function updateEmpRole(startUp, roleID, empID) {
+        const employees = empAllView(startUp);
+        const empChoices = employees.map(index => {
           id: id;
         })
         inquirer.prompt({
