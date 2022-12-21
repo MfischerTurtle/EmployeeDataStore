@@ -1,5 +1,5 @@
 # EmployeeDataStore
-# 12 MySQL: Employee Management System
+
 
 ## Table of Contents
 
